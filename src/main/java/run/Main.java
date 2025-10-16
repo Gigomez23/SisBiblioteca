@@ -1,3 +1,7 @@
+//Autores: Andrea Bojorge, Gabriel Lacayo, Gabriel Gomez, Oscar Ramirez, Ervin Perez
+//        Fecha: 15 de Octubre del 2025
+//        Sistema de Gestion de Biblioteca
+//        Metodologia de Programacion Orientada a Objetos I
 package run;
 import config.JPAUtil;
 import jakarta.persistence.EntityManager;
