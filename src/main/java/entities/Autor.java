@@ -10,8 +10,6 @@ import java.util.List;
 @Entity
 @Getter @Setter
 @Table(name = "autores")
-
-
 public class Autor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -39,5 +37,4 @@ public class Autor {
                 " | libros: " + (libros != null ? libros.size() : 0) + '\'' +
                 "============================";
     }
-
 }

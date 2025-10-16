@@ -6,7 +6,9 @@
     <persistence-unit name="uam" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-<!--    todo: poner las clases aqui-->
+        <class>entities.Categoria</class>
+        <class>entities.Libro</class>
+        <class>entities.Autor</class>
 
 
         <properties>
